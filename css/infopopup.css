@@ -133,12 +133,13 @@ html, body {
 
 
 
-.infopopup p {
+.infocontentwrapper p {
 /* 	font-size: 14px; */
-	font-style: normal;
+/* 	font-style: normal; */
 	font-variant: normal;
 	font-weight: 300;
 	line-height: 23px;
+	padding-top: 23px;
 }
 .infopopup .info-copyright {
 	text-align: right;
@@ -159,8 +160,7 @@ html, body {
 
 
 /* URL Links */
-.infocontentwrapper a, .info-source  a {
-
+.infocontentwrapper a, .info-copyright a, .info-source  a {
     text-decoration: none;
     border-bottom: .2em solid #feda00;
     color: inherit;
@@ -169,7 +169,7 @@ html, body {
     transition: all .2s ease-out;
 
 }
-.infocontentwrapper a:hover, .info-source a:hover, ul a:hover {
+.infocontentwrapper a:hover, .info-copyright a:hover, .info-source a:hover, ul a:hover {
     background: #feda00;
 }
 
