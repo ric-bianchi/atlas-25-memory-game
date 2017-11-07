@@ -35,7 +35,7 @@
 			this.$infoButtons.hide();
 			
 			//Memory.showModal(); // show modal "The End" popup on start screen, for DEBUG
-			//Memory.debugMode(); // show cards' back-side on start screen, for DEBUG
+			Memory.debugMode(); // show cards' back-side on start screen, for DEBUG
 		},
 
 		binding: function(){
@@ -152,8 +152,8 @@
 					      + '<div class="infonumber"><h1>Card n. ' + v.id + '</h1></div>'
 					      + '<div class="infotitle"><h1>' + v.year + ' - ' + v.title + '</h1></div>'
 					  + '</div>'
-					  +'<div class="info-copyright"><p>&copy; 2017 Riccardo Maria Bianchi</p></div>'
-					  + '<div class="info-source"><p>Image source: <a href="' + v.link + '">CERN CDS</a>, ATLAS Experiment © 2017 CERN</p></div>'
+					  +'<div class="info-copyright"><p>Text: &copy; 2017 <a href="http://www.riccardomariabianchi.com">Riccardo Maria Bianchi</a></p></div>'
+					  + '<div class="info-source"><p>Image: ATLAS Experiment © 2017 CERN, source: <a href="' + v.link + '">CERN CDS</a></p></div>'
 					  + '<div class="infocontentwrapper'+v.id+' infocontentwrapper"></div>'
 				      + '</div>'
 				    +'</div>'
