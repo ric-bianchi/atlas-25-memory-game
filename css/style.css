@@ -144,8 +144,8 @@ body {
 .modal {
   display: none;
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 75%;
+  height: 75%;
   max-height: 90%;
   max-width: 90%;
   min-height: 380px;
@@ -173,10 +173,10 @@ font-family: "Fira Sans Black", sans-serif;
 .modal .restart {
 /*   font-family: "Anton", sans-serif; */
   font-family: "Fira Sans Black", sans-serif;
-  margin: 30px auto;
-  padding: 20px 30px;
+  margin: 10px auto;
+  padding: 10px 20px;
   display: block;
-  font-size: 30px;
+  font-size: 20px;
   border: none;
   background: #4d4d4d;
   background: -webkit-linear-gradient(#4d4d4d, #222);
@@ -204,7 +204,7 @@ font-family: "Fira Sans Black", sans-serif;
   border-bottom: 1px dotted #56c0eb;
 }
 .modal .message-small {
-  font-size: 50%;
+  font-size: 70%;
 }
 .modal .share-text {
   text-align: center;
