@@ -34,8 +34,8 @@
 			this.$infoButtons = this.$game.find(".cardinfobutton");
 			this.$infoButtons.hide();
 			
-			//Memory.showModal(); // show modal "The End" popup on start screen, for DEBUG
-			Memory.debugMode(); // show cards' back-side on start screen, for DEBUG
+			Memory.showModal(); // show modal "The End" popup on start screen, for DEBUG
+			//Memory.debugMode(); // show cards' back-side on start screen, for DEBUG
 		},
 
 		binding: function(){

@@ -145,7 +145,7 @@ body {
   display: none;
   position: relative;
   width: 500px;
-  height: 400px;
+  height: 500px;
   max-height: 90%;
   max-width: 90%;
   min-height: 380px;
@@ -159,9 +159,11 @@ body {
 .modal .winner {
   font-size: 80px;
   text-align: center;
-  font-family: "Anton", sans-serif;
-  color: #4d4d4d;
-  text-shadow: 0px 3px 0 black;
+/*   font-family: "Anton", sans-serif; */
+font-family: "Fira Sans Black", sans-serif;
+  color: #0681bf;
+  font-weight: 700;
+/*   text-shadow: 0px 3px 0 black; */
 }
 @media (max-width: 480px) {
   .modal .winner {
@@ -169,7 +171,8 @@ body {
   }
 }
 .modal .restart {
-  font-family: "Anton", sans-serif;
+/*   font-family: "Anton", sans-serif; */
+  font-family: "Fira Sans Black", sans-serif;
   margin: 30px auto;
   padding: 20px 30px;
   display: block;
