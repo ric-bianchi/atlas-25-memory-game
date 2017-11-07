@@ -20,4 +20,4 @@ Click the cards and find matches to win.. you know how to play it
 
 ---
 
-Copyright (c) 2017 by Riccardo Maria Bianchi 
+Copyright © 2017 by Riccardo Maria Bianchi 
