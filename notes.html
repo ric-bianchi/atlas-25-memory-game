@@ -9,6 +9,20 @@
 
 
 <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async
+	src="https://www.googletagmanager.com/gtag/js?id=UA-39307176-6"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-39307176-6');
+</script>
+
 <meta charset="UTF-8">
 <title>Ric's ATLAS 25 Memory Game - All notes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,11 +36,13 @@
 	href="https://fonts.googleapis.com/css?family=Fira+Sans:700,900|Lato:300i,300,400i,400&amp;subset=latin-ext"
 	rel="stylesheet">
 <!-- <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Anton'> -->
-<link rel='stylesheet' href='ext/anton.css'>
+<!-- <link rel='stylesheet' href='ext/anton.css'>
+ -->
 <!-- TODO: add Open Sans font, otherwise it's only taken from cache. And one font for titles... -->
 <!-- <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> -->
-<link rel='stylesheet'
+<!-- <link rel='stylesheet'
 	href='font/font-awesome-4.7.0/css/font-awesome.min.css'>
+ -->
 
 <!-- Add local CSS -->
 <link rel="stylesheet" href="css/style.css">
@@ -36,10 +52,17 @@
 
 <body>
 
+	<div class="wrap">
+
+		<div class=content></div>
+		<!-- this is filled in the JS script -->
+
+
+	</div>
+	<!-- End Wrap -->
 
 	<script src='ext/jquery.min.js'></script>
 	<script src="js/allnotes.js"></script>
-
 </body>
 
 </html>
