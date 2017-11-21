@@ -44,15 +44,13 @@ body {
 }
 
 img.lazy {
-	max-width: 700px;
-	max-height: 467px;
+	max-width: 400px;
+	max-height: 300px;
 	display: block;
+	margin-left: auto;
+    margin-right: auto;
 	/* optional way, set loading as background */
 	background-image: url('images/loading.gif');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-}
-img.lazy.vertical {
-	width: 200px;
-	height: 467px;
 }
