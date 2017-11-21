@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "firstmagnet",
-			"img": "assets/cards/timeline/3_2004_building_toro"id".jpg",
+			"img": "assets/cards/timeline/3_2004_building_toroid.jpg",
 			"id": "3",
 			"year": "2004",
 			"title": "Lowering the first magnet",
@@ -28,8 +28,8 @@
 			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
 		},
 		{
-			"name": "toro"id"",
-			"img": "assets/cards/timeline/4_2005_toro"id".jpg",
+			"name": "toroid",
+			"img": "assets/cards/timeline/4_2005_toroid.jpg",
 			"id": "4",
 			"year": "2005",
 			"title": "A huge detector!",
@@ -107,6 +107,6 @@
 			"title": "Upgrading the experiment, towards new challenges",
 			"link": "https://cds.cern.ch/record/1702006",
 			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
-		},
+		}
 	]
 }
