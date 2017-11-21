@@ -10,13 +10,103 @@
 			"info": "<p>Some HTML text...</p>"
 		},
 		{
-			"name": "LOI2",
-			"img": "assets/cards/timeline/1_1992_ATLAS_LOI.jpg",
+			"name": "cavern",
+			"img": "assets/cards/timeline/2_2003_cavern.jpg",
 			"id": "2",
-			"year": "1992",
-			"title": "The birth of the ATLAS Experiment",
-			"link": "https://cdsweb.cern.ch/record/291061/",
-			"info": "<p>Some HTML text...</p>"
-		}
+			"year": "2003",
+			"title": "The den of the giant is ready!",
+			"link": "http://cds.cern.ch/record/620604",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "firstmagnet",
+			"img": "assets/cards/timeline/3_2004_building_toro"id".jpg",
+			"id": "3",
+			"year": "2004",
+			"title": "Lowering the first magnet",
+			"link": "https://cds.cern.ch/record/802466",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "toro"id"",
+			"img": "assets/cards/timeline/4_2005_toro"id".jpg",
+			"id": "4",
+			"year": "2005",
+			"title": "A huge detector!",
+			"link": "https://cds.cern.ch/record/910381",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "physicists",
+			"img": "assets/cards/timeline/5_2008_ATLAS_physicists.jpg",
+			"id": "5",
+			"year": "2008",
+			"title": "From all over the world to work together towards a common goal",
+			"link": "http://cds.cern.ch/record/1110951",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "muonsmallwheels",
+			"img": "assets/cards/timeline/6_2008_MuonSmallWheels.jpg",
+			"id": "6",
+			"year": "2008",
+			"title": "The last pieces",
+			"link": "https://cds.cern.ch/record/1082464",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "h4mu",
+			"img": "assets/cards/timeline/7_2011_event_display_4muons.jpg",
+			"id": "7",
+			"year": "2011",
+			"title": "4 muons for a Higgs boson",
+			"link": "https://cds.cern.ch/record/1406057",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "higgsseminar",
+			"img": "assets/cards/timeline/8_2012_HiggsEnglert.jpg",
+			"id": "8",
+			"year": "2012",
+			"title": "The BIG announcement!",
+			"link": "https://cds.cern.ch/record/1459503",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "celebration",
+			"img": "assets/cards/timeline/9_2012_higgs_celebration.jpg",
+			"id": "9",
+			"year": "2012",
+			"title": "A toast for the Higgs boson!",
+			"link": "https://cds.cern.ch/record/1475204",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "h2e2mu",
+			"img": "assets/cards/timeline/10_2014_event_display_H2e2mu.png",
+			"id": "10",
+			"year": "2014",
+			"title": "Selecting, cross-checking, and verifying",
+			"link": "http://cds.cern.ch/record/1756226",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "heavyions",
+			"img":"assets/cards/timeline/11_2015_event_display_HI.png",
+			"id": "11",
+			"year": "2015",
+			"title": "A pinch of lead ions, for the primordial taste!",
+			"link": "https://cds.cern.ch/record/2115422/",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
+		{
+			"name": "ibl",
+			"img":"assets/cards/timeline/12_2017_upgrade.jpg",
+			"id": "12",
+			"year": "2017",
+			"title": "Upgrading the experiment, towards new challenges",
+			"link": "https://cds.cern.ch/record/1702006",
+			"info": "<p>Some text...</p><plus a <a>http://atlas.cern</a></p>"
+		},
 	]
 }
