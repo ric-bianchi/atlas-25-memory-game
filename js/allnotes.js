@@ -44,7 +44,8 @@
 							+ '<div class="infonumber"><h1>Card n. ' + v.id + '</h1></div>'
 							+ '<div class="infotitle"><h1>' + v.year + ' - ' + v.title + '</h1></div>'
 							+ '</div>'
-							+ '<div class="allnotespicture"><a href="'+ v.link +'"><img src="' + v.img + '" alt="' + v.title + '"></a></div>'
+//							+ '<div class="allnotespicture"><a href="'+ v.link +'"><img src="' + v.img + '" alt="' + v.title + '"></a></div>'
+							+ '<div class="allnotespicture"><a href="'+ v.link +'"><img class="lazy" data-src="' + v.img + '" alt="' + v.title + '"></a></div>'
 							+ '<div class="info-source"><p>Image: ATLAS Experiment &copy; 2017 CERN, source: <a href="' + v.link + '">CERN CDS</a></p></div>'
 							+ '<div class="infocontentwrapper'+v.id+' infocontentwrapper"></div>'
 							+ '</div>'
@@ -65,6 +66,11 @@
 		}; // end of 'AllNotes'
 
 		AllNotes.init(cards);
+		
+		// Load all the lazy content
+		$(function() {
+	        $('.lazy').Lazy();
+	    });
 
 	}); // end of getJSON()
 
