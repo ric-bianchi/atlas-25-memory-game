@@ -3,6 +3,7 @@
 		{
 			"name": "LOI",
 			"img": "assets/cards/timeline/1_1992_ATLAS_LOI.jpg",
+			"format": "v",
 			"id": "1",
 			"year": "1992",
 			"title": "The birth of the ATLAS Experiment",
@@ -12,6 +13,7 @@
 		{
 			"name": "cavern",
 			"img": "assets/cards/timeline/2_2003_cavern.jpg",
+			"format": "h",
 			"id": "2",
 			"year": "2003",
 			"title": "The den of the giant is ready!",
@@ -21,6 +23,7 @@
 		{
 			"name": "firstmagnet",
 			"img": "assets/cards/timeline/3_2004_building_toroid.jpg",
+			"format": "h",
 			"id": "3",
 			"year": "2004",
 			"title": "Lowering the first magnet",
@@ -30,6 +33,7 @@
 		{
 			"name": "toroid",
 			"img": "assets/cards/timeline/4_2005_toroid.jpg",
+			"format": "h",
 			"id": "4",
 			"year": "2005",
 			"title": "A huge detector!",
@@ -39,6 +43,7 @@
 		{
 			"name": "physicists",
 			"img": "assets/cards/timeline/5_2008_ATLAS_physicists.jpg",
+			"format": "h",
 			"id": "5",
 			"year": "2008",
 			"title": "From all over the world to work together towards a common goal",
@@ -48,6 +53,7 @@
 		{
 			"name": "muonsmallwheels",
 			"img": "assets/cards/timeline/6_2008_MuonSmallWheels.jpg",
+			"format": "h",
 			"id": "6",
 			"year": "2008",
 			"title": "The last pieces",
@@ -57,6 +63,7 @@
 		{
 			"name": "h4mu",
 			"img": "assets/cards/timeline/7_2011_event_display_4muons.jpg",
+			"format": "h",
 			"id": "7",
 			"year": "2011",
 			"title": "4 muons for a Higgs boson",
@@ -66,6 +73,7 @@
 		{
 			"name": "higgsseminar",
 			"img": "assets/cards/timeline/8_2012_HiggsEnglert.jpg",
+			"format": "h",
 			"id": "8",
 			"year": "2012",
 			"title": "The BIG announcement!",
@@ -75,6 +83,7 @@
 		{
 			"name": "celebration",
 			"img": "assets/cards/timeline/9_2012_higgs_celebration.jpg",
+			"format": "h",
 			"id": "9",
 			"year": "2012",
 			"title": "A toast for the Higgs boson!",
@@ -84,6 +93,7 @@
 		{
 			"name": "h2e2mu",
 			"img": "assets/cards/timeline/10_2014_event_display_H2e2mu.png",
+			"format": "h",
 			"id": "10",
 			"year": "2014",
 			"title": "Selecting, cross-checking, and verifying",
@@ -93,6 +103,7 @@
 		{
 			"name": "heavyions",
 			"img":"assets/cards/timeline/11_2015_event_display_HI.png",
+			"format": "h",
 			"id": "11",
 			"year": "2015",
 			"title": "A pinch of lead ions, for the primordial taste!",
@@ -102,6 +113,7 @@
 		{
 			"name": "ibl",
 			"img":"assets/cards/timeline/12_2017_upgrade.jpg",
+			"format": "h",
 			"id": "12",
 			"year": "2017",
 			"title": "Upgrading the experiment, towards new challenges",
