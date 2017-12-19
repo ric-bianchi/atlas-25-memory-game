@@ -106,12 +106,14 @@ body {
   height: 100%;
   padding: 20px;
 }
-.card .front img, .card .back img {
+.card .front img, .card .back img{
   max-width: 100%;
   display: block;
   margin: 0 auto;
   max-height: 100%;
 }
+
+
 .card .front {
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);

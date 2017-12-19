@@ -101,7 +101,7 @@ html, body {
 
 .infopopup .infocontentwrapper {
     box-sizing: border-box; 
-    overflow: auto;
+    overflow: visible;
 }
 .infopopup .infotop {
     box-sizing: border-box; 
@@ -112,10 +112,7 @@ html, body {
 .infocontenttitle {
 	padding-top: 15px;	
 }
-.infopopup .infonotetitle {
-	padding-top: 15px;
-	font-style: italic;
-}
+
 	
 /* .infopopup .infonote { */
 /* 	padding: 5px 0px 5px 0px; */
