@@ -109,14 +109,17 @@ html, body {
 }
 
 
+.infocontenttitle {
+	padding-top: 15px;	
+}
 .infopopup .infonotetitle {
-	padding: 10px 0px 10px 0px;
+	padding-top: 15px;
 	font-style: italic;
 }
 	
-.infopopup .infonote {
-	padding: 5px 0px 5px 0px;
-}
+/* .infopopup .infonote { */
+/* 	padding: 5px 0px 5px 0px; */
+/* } */
 
 .infopopup .infotitle {
 	color: #0b80c3; /* #feda00; */ /* #06D85F; */
@@ -132,15 +135,17 @@ html, body {
 
 
 
-
 .infocontentwrapper p {
 /* 	font-size: 14px; */
 /* 	font-style: normal; */
 	font-variant: normal;
 	font-weight: 300;
 	line-height: 23px;
-	padding-top: 23px;
+/* 	padding-top: 23px; */
 }
+
+
+
 .info-copyright {
 	text-align: right;
 /* 	padding: 10px; */
