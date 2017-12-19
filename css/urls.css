@@ -1,6 +1,11 @@
 
 /* URL Links */
-.infocontentwrapper a, .info-copyright a, .info-source  a, .message-small a, .share-text a{
+.infocontentwrapper a, 
+.info-copyright a, 
+.info-author a, 
+.info-source  a, 
+.message-small a, 
+.share-text a{
     text-decoration: none;
     border-bottom: .2em solid #feda00;
     color: inherit;
@@ -9,6 +14,12 @@
     transition: all .2s ease-out;
 
 }
-.infocontentwrapper a:hover, .info-copyright a:hover, .info-source a:hover, ul a:hover, .message-small a:hover, .share-text a:hover {
+.infocontentwrapper a:hover, 
+.info-copyright a:hover, 
+.info-author a:hover, 
+.info-source a:hover, 
+ul a:hover, 
+.message-small a:hover, 
+.share-text a:hover {
     background: #feda00;
 }
