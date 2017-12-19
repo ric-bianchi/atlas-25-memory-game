@@ -2,6 +2,12 @@ body {
 	background: white;
 }
 
+/* Switching off 'overflow' for one-age display */
+.infopopup .infocontentwrapper {
+    box-sizing: border-box;
+    overflow: visible;
+}
+
 .allnotes {
 	background-color: #fff;
 	width: 80%;
@@ -21,22 +27,31 @@ body {
 
 .notes-header h1 {
 	color: #0b80c3; /* #feda00; */ /* #06D85F; */
-	font-size: 23px;
+	font-size: 72px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 700;
-	line-height: 23px;
+/* 	line-height: 23px; */
 }
 
 .notes-header h2 {
-	font-size: 18px;
+	font-size: 36px;
 	font-style: normal;
 	font-variant: normal;
-	line-height: 23px;
+}
+
+/* .notes-header. */
+.info-author {
+	font-family: Lato, Arial, sans-serif;
+	width: 80%;
+	text-align: right;
+	padding-top:50px;
 }
 
 .info-copyright {
 	font-family: Lato, Arial, sans-serif;
+	width: 80%;
+	padding-bottom: 50px;
 }
 
 .notes-credits {
@@ -44,8 +59,8 @@ body {
 }
 
 img.lazy {
-	max-width: 400px;
-	max-height: 300px;
+	width: 600px;
+	max-height: 600px;
 	display: block;
 	margin-left: auto;
     margin-right: auto;
@@ -53,4 +68,8 @@ img.lazy {
 	background-image: url('images/loading.gif');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+}
+img.lazy.vertical {
+	width: 300px;
+	max-height: 400px;	
 }
