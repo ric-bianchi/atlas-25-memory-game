@@ -36,6 +36,12 @@
 					
 					$.each(cards, function(k, v){
 						
+						var classFormat = "horizontal";
+						var picFormat = v.format;
+						if (picFormat == "h") classFormat = "horizontal";
+						else if (picFormat == "v") classFormat = "vertical";
+						else console.log("ERROR! format not defined for card '"+v.id+"'. Using 'Horizontal'.");
+						
 						// create a single card section
 						frag += ''
 //							+ '<div id="popup' + v.id + '" class="infooverlay whitebkg">'
@@ -46,7 +52,7 @@
 							+ '<div class="infotitle"><h1>' + v.year + ' - ' + v.title + '</h1></div>'
 							+ '</div>'
 //							+ '<div class="allnotespicture"><a href="'+ v.link +'"><img src="' + v.img + '" alt="' + v.title + '"></a></div>'
-							+ '<div class="allnotespicture"><a href="'+ v.link +'"><img class="lazy" data-src="' + v.img + '" alt="' + v.title + '"></a></div>'
+							+ '<div class="allnotespicture"><a href="'+ v.link +'"><img class="lazy ' + classFormat + '" data-src="' + v.img + '" alt="' + v.title + '"></a></div>'
 							+ '<div class="info-source"><p>Image: ATLAS Experiment &copy; 2017 CERN, source: <a href="' + v.link + '">CERN CDS</a></p></div>'
 							+ '<div class="infocontentwrapper'+v.id+' infocontentwrapper"></div>'
 							+ '</div>'
