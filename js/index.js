@@ -50,7 +50,7 @@
 			// Switch ON debug modes
 			//Memory.showModal(); // show modal "The End" popup on start screen, for DEBUG
 			//Memory.debugModeFlipAll(); // show cards' back-side on start screen, for DEBUG
-			Memory.debugModeShowId(); // show id on the back of the cards, for DEBUG
+			//Memory.debugModeShowId(); // show id on the back of the cards, for DEBUG
 			
 			
 		},
