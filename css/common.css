@@ -15,18 +15,37 @@ img.lazy.vertical {
 	max-height: 400px;	
 }
 
-
+img.lazy.popup-picture{
+	width: 400px;	
+	float: left;
+	margin: 10px 10px 4px 0px;	
+}
+img.lazy.vertical.popup-picture {
+	width: 200px;
+	max-height: 300px;	
+	float: left;
+	margin: 10px 10px 4px 0px;	
+}
 
 .infopopup .infonotetitle,.infonote {
 	padding-top: 15px;
 	font-style: italic;
 }
 
-.watermark{
+.centered{
   position: absolute;
-  max-height: 20%;
-  max-width: 20%;
-  background-color:rgba(0,0,0,.4);
+  height: 50%;
+  width: 50%;
+  margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.watermark {
+/*   background-color:rgba(0,0,0,.4); */
+  opacity: 0.9;
+}
+
+.fa-info-circle {
+	color: #0681bf;
 }
 
