@@ -163,8 +163,6 @@
 			
 			var classFormat = "horizontal";
 			
-			var infoImg = "assets/cards/Info-Button-300px.png"
-			
 			this.$cards.each(function(k, v){
 
 				var picFormat = v.format;
@@ -178,6 +176,7 @@
 				    + '<div class="front">'
 				        + '<img src="'+ v.img +'"alt="'+ v.name +'" />'
 				        + '<div class="watermark centered">'
+				          // TODO: you should adjust the size of the icon depending on the screen size: for mobile, 4x is too large...
 				      	  + '<i class="fa fa-info-circle fa-4x" aria-hidden="true"></i>'
 				        + '</div>'
 				        + '<div class="cardinfobutton"><a class="infolink" href="#popup' + v.id + '"></a></div>' // dummy anchor to store the link to the popup
@@ -191,18 +190,20 @@
 				 // append to the body an info box for the card
 				 var infoDiv = $(''
 			            + '<div id="popup' + v.id + '" class="infooverlay">'
-				      + '<div class="infopopup">'
-					  + '<div class=infotop>'
-						  + '<div class="infoclose-wrapper"><a class="infoclose" href="#">&times;</a></div>'
-					      + '<div class="infonumber"><h1>Card n. ' + v.id + '</h1></div>'
-					      + '<div class="infotitle"><h1>' + v.year + ' - ' + v.title + '</h1></div>'
-					  + '</div>'
-					  +'<div class="info-copyright"><p>Text: &copy; 2017 <a href="http://www.riccardomariabianchi.com">Riccardo Maria Bianchi</a></p></div>'
-					  + '<div class="info-source"><p>Image: ATLAS Experiment &copy; CERN, source: <a href="' + v.link + '">CERN CDS</a></p></div>'
-					  + '<div class="allnotespicture"><a href="'+ v.link +'"><img class="popup-picture lazy ' + classFormat + '" data-src="' + v.img + '" alt="' + v.title + '"></a></div>'
-					  + '<div class="infocontentwrapper'+v.id+' infocontentwrapper"></div>'
-				      + '</div>'
-				    +'</div>'
+			              // target anchor to close the popup when clicking outside of it
+			              + '<a class="cancel" href="#"></a>'
+				          + '<div class="infopopup">'
+					        + '<div class=infotop>'
+						      + '<div class="infoclose-wrapper"><a class="infoclose" href="#">&times;</a></div>'
+					          + '<div class="infonumber"><h1>Card n. ' + v.id + '</h1></div>'
+					          + '<div class="infotitle"><h1>' + v.year + ' - ' + v.title + '</h1></div>'
+					        + '</div>' // infotop
+					        +'<div class="info-copyright"><p>Text: &copy; 2017 <a href="http://www.riccardomariabianchi.com">Riccardo Maria Bianchi</a></p></div>'
+					        + '<div class="info-source"><p>Image: ATLAS Experiment &copy; CERN, source: <a href="' + v.link + '">CERN CDS</a></p></div>'
+					        + '<div class="allnotespicture"><a href="'+ v.link +'"><img class="popup-picture lazy ' + classFormat + '" data-src="' + v.img + '" alt="' + v.title + '"></a></div>'
+					        + '<div class="infocontentwrapper'+v.id+' infocontentwrapper"></div>'
+				          + '</div>' // infopopup
+				        +'</div>' // infooverlay
 				).attr('id', 'popup'+v.id);
 				infoDiv.appendTo('body');
 				

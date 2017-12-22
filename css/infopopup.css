@@ -59,6 +59,13 @@ html, body {
 	z-index: 99999999;
 }
 
+.infooverlay .cancel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+  
 .infopopup {
 	position: relative; /* 1. Position relative because of absolute child elements */
 	padding: 20px; 
