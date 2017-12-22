@@ -41,6 +41,7 @@ body {
 @-webkit-keyframes matchAnim {
   0% {
     background: #bcffcc;
+/*     background: #0681bf; */
   }
   100% {
     background: white;
@@ -50,6 +51,7 @@ body {
 @keyframes matchAnim {
   0% {
     background: #bcffcc;
+/*     background: #0681bf; */
   }
   100% {
     background: white;
