@@ -161,7 +161,7 @@ body {
   padding: 30px 10px;
 }
 .modal .winner {
-  font-size: 80px;
+  font-size: 40px;
   text-align: center;
 /*   font-family: "Anton", sans-serif; */
 font-family: "Fira Sans Black", sans-serif;
@@ -171,7 +171,7 @@ font-family: "Fira Sans Black", sans-serif;
 }
 @media (max-width: 480px) {
   .modal .winner {
-    font-size: 60px;
+    font-size: 30px;
   }
 }
 .modal .restart {
@@ -213,7 +213,7 @@ font-family: "Fira Sans Black", sans-serif;
 }
 .modal .share-text {
   text-align: center;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 .italic{
 	font-style: italic;
@@ -223,13 +223,13 @@ font-family: "Fira Sans Black", sans-serif;
 }
 
 .modal .social {
-  margin: 20px auto;
+  margin: 10px auto;
   text-align: center;
 }
 .modal .social li {
   display: inline-block;
-  height: 50px;
-  width: 50px;
+  height: 25px;
+  width: 25px;
   margin-right: 10px;
 }
 .modal .social li:last-child {
@@ -237,7 +237,7 @@ font-family: "Fira Sans Black", sans-serif;
 }
 .modal .social li a {
   display: block;
-  line-height: 50px;
+  line-height: 25px;
   font-size: 20px;
   color: white;
   text-decoration: none;
